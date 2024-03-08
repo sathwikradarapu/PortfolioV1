@@ -3,7 +3,7 @@ import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
   return (
-    <div className="text-white  intro">
+    <div className="text-white intro">
       <h1 className="m-2 text-3xl font-bold md:text-6xl">Hi </h1>
       <h1 className="m-2 text-3xl font-bold md:text-6xl ">
         I'm Sai Prakash Sunkari{" "}
@@ -34,9 +34,14 @@ const Intro = () => {
         Transforming visions into interactive realities through pixel-perfect
         designs and intuitive user experiences
       </p>
-      <button className="w-32 p-4 m-2 text-xs font-semibold text-center text-white transition ease-in-out border-white shadow-6xl rounded-2xl hover:bg-neutral-800 md:text-2xl ">
-        Resume
-      </button>
+      <a
+        href="https://drive.google.com/file/d/19p3SQRfMUMX0b2mIL-QKjrBgZMXwGKFu/view?usp=sharing"
+        target="_blank"
+      >
+        <button className="w-32 p-4 m-2 text-xs font-semibold text-center text-white transition ease-in-out border-white shadow-6xl rounded-2xl hover:bg-neutral-800 md:text-2xl ">
+          Resume
+        </button>
+      </a>
     </div>
   );
 };
