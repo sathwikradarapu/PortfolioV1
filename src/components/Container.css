@@ -1,0 +1,7 @@
+.cont {
+  background-image: url("../imgs/pfBg.jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
