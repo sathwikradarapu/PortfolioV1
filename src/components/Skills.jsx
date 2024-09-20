@@ -1,294 +1,177 @@
 import React from "react";
 import reactSvg from "../assets/react.svg";
 import "./Skills.css";
-import vscode from "../imgs/vdcode.gif";
+
 const Skills = () => {
   return (
-    <div className="flex flex-col text-white" id="Projects">
+    <div className="flex flex-col text-white" id="Skills">
       <div className="flex flex-col items-center">
         <h1 className="p-2 m-3 mt-16 text-5xl font-bold">Skills</h1>
         <h4 className="p-2 text-2xl text-center">
-          Here are some of my skills on which I have been working on for the
-          past 1 year
+        I have been developing and honing these skills over the past year.
         </h4>
       </div>
       <div className="flex flex-wrap items-center justify-center cardsDiv responsiveDiv">
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white androidCard h-fit rounded-xl ">
           <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">Android</h1>
+            <h1 className="text-3xl font-bold">Programming Language</h1>
           </div>
           <div className="flex flex-wrap items-center justify-center p-3">
             <div className="flex items-center m-2 border border-white rounded-lg w-fit responsiveDiv">
               <img
                 className="m-2 rounded-xl"
-                src="https://img.icons8.com/?size=96&id=GPfHz0SM85FX&format=gif"
-                height="40"
-                width="40"
+                src="https://res.cloudinary.com/teepublic/image/private/s--v2JODg9W--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1520050660/production/designs/2416585_0.jpg"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Java</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                loop
-                autoPlay
-                className="m-2 rounded-xl"
-                src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/kotlin-programming-language-6543310-5401030.mp4"
-                height="40"
-                width="40"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">Kotlin</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                autoPlay
-                loop
-                className="m-2 rounded-2xl"
-                src="https://img.icons8.com/?size=96&id=QsO1qiXCL8H2&format=gif"
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">XML</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                loop
-                autoPlay
-                className="m-2 rounded-xl"
-                src="https://cdnl.iconscout.com/lottie/free/thumb/free-android-4740777-3938339.mp4"
-                height="40"
-                width="40"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">Android Studio</h1>
+              <h1 className="m-2 text-xs md:text-xl">Python</h1>
             </div>
           </div>
         </div>
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white backendCard h-fit rounded-xl">
           <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">Backend</h1>
+            <h1 className="text-3xl font-bold">CS Fundementals</h1>
           </div>
           <div className="flex flex-wrap items-center justify-center p-3">
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://media.licdn.com/dms/image/D4D12AQGPsMj05z71VA/article-cover_image-shrink_600_2000/0/1693836846985?e=2147483647&v=beta&t=eqxVcd9LGvamjnWIcEXGZ8tYqUnShccB3vm07aQ1kHc"
-                height="40"
-                width="40"
+                src="https://logodix.com/logo/1164574.png"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Node JS</h1>
+              <h1 className="m-2 text-xs md:text-xl">DBMS</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://assets-v2.lottiefiles.com/a/2a2a499e-116d-11ee-8f41-7f82227ba589/MIgBtJS610.gif"
-                height="40"
-                width="40"
+                src="https://www.ddesignerr.com/wp-content/uploads/2013/05/Windows-Vs-Apple-HD-Wallpaper.jpg"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">MongoDB</h1>
+              <h1 className="m-2 text-xs md:text-xl">Operating Systems</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 autoPlay
                 loop
                 className="m-2 rounded-2xl"
-                src="https://cdn.icon-icons.com/icons2/3914/PNG/512/express_logo_icon_248911.png"
-                height="40"
-                width="40"
+                src="https://di3xp7dfi3cq.cloudfront.net/media/magefan_blog/10-applications-of-object-oriented-programming.jpeg"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Express JS</h1>
+              <h1 className="m-2 text-xs md:text-xl">OOPS</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://user-images.githubusercontent.com/74038190/238200431-3c16d4f2-b757-4c70-8f42-43d5dddd2c36.gif"
-                height="40"
-                width="40"
+                src="https://3.bp.blogspot.com/-sr5nrVMP8gQ/WrPUIcvWWHI/AAAAAAAALIE/apHAJwImTkkE3Ey4-TF4IkO8iItWBfMGQCLcBGAs/s1600/dccn.png"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">FireBase</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                loop
-                autoPlay
-                className="m-2 rounded-xl"
-                src="https://logowik.com/content/uploads/images/mysql8604.logowik.com.webp"
-                height="45"
-                width="45"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">MySQL</h1>
+              <h1 className="m-2 text-xs md:text-xl">Computer Networks</h1>
             </div>
           </div>
         </div>
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white frontendCard h-fit rounded-xl">
           <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">Frontend</h1>
+            <h1 className="text-3xl font-bold">Front End</h1>
           </div>
           <div className="flex flex-wrap items-center justify-center p-3">
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://media0.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952yjk2uq411my528ma3yooscpt3sj4j7nxfpvkarlm&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">React JS</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2 rounded-xl"
-                src="https://img.icons8.com/?size=96&id=tGvHBPJaKqEd&format=gif"
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">JavaScript</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                autoPlay
-                loop
-                className="m-2 rounded-2xl"
-                src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/css-8654540-6897446.mp4"
-                height="40"
-                width="40"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">CSS</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2 rounded-xl"
-                src="https://img.icons8.com/?size=96&id=Lb0GijAhiD3r&format=gif"
-                height="40"
-                width="40"
+                src="https://th.bing.com/th/id/OIP.wtbphh9buB7NAjHoCtv74wAAAA?rs=1&pid=ImgDetMain"
+                height="80"
+                width="80"
               ></img>
               <h1 className="m-2 text-xs md:text-xl">HTML</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
-                loop
-                autoPlay
-                className="m-2 rounded-2xl"
-                src="https://purecode.ai/blogs/wp-content/uploads/2023/12/giphy-6.gif"
-                height="40"
-                width="40"
+                className="m-2 rounded-xl"
+                src="https://logodownload.org/wp-content/uploads/2017/04/css-3-logo.png"
+                height="80"
+                width="80"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">CSS</h1>
+            </div>
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-xl"
+                src="https://th.bing.com/th/id/R.da53dc3418ca99ce8fec3846274d9cb8?rik=7Qcec6x2MyB8%2bw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fbootstrap-png-bootstrap-512.png&ehk=BlRbDLn1AD%2f9puV15VDXoihIzzttL%2bYGFjbEx6uC2cI%3d&risl=&pid=ImgRaw&r=0"
+                height="80"
+                width="80"
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Bootstrap</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                loop
-                autoPlay
-                className="m-2 rounded-2xl"
-                src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/tailwind-css-10875167-8814761.mp4"
-                height="40"
-                width="40"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">Tailwind</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
-                className="m-2"
-                src="https://img.icons8.com/?size=160&id=3VGtaw5gCc8T&format=png"
-                height="40"
-                width="40"
+                className="m-2 rounded-xl"
+                src="https://th.bing.com/th/id/OIP.fGpgk9AVa9fKPUnSMhfLCAHaFj?rs=1&pid=ImgDetMain"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Redux</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2"
-                src="https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png"
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">Material UI</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                autoPlay
-                loop
-                className="m-2 rounded-2xl"
-                src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/flutter-logo-6103073-5073422.mp4"
-                height="40"
-                width="40"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">Flutter</h1>
+              <h1 className="m-2 text-xs md:text-xl">JavaScript</h1>
             </div>
           </div>
         </div>
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white othersCard h-fit rounded-xl">
           <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">Others</h1>
+            <h1 className="text-3xl font-bold">Back End</h1>
           </div>
           <div className="flex flex-wrap items-center justify-center p-3">
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://media.tenor.com/F_aIpdp3hEwAAAAi/git-github.gif"
-                height="60"
-                width="60"
+                src="https://pngimg.com/uploads/mysql/mysql_PNG29.png"
+                height="80"
+                width="80"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">MySQL</h1>
+            </div>
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-2xl"
+                src="https://logowik.com/content/uploads/images/nodejs.jpg"
+                height="80"
+                width="80"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">NodeJS</h1>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-5/12 p-3 m-5 border border-white othersCard h-fit rounded-xl">
+          <div className="flex items-center justify-center">
+            <h1 className="text-3xl font-bold">Developer Tools</h1>
+          </div>
+          <div className="flex flex-wrap items-center justify-center p-3">
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-xl"
+                src="https://logospng.org/wp-content/uploads/git.png"
+                height="80"
+                width="80"
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Git</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-2xl"
-                src="https://cdn.dribbble.com/users/1144208/screenshots/2655434/week6---git-scared.gif"
-                height="50"
-                width="50"
+                src="https://static.vecteezy.com/system/resources/previews/017/119/660/original/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg"
+               height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Github</h1>
+              <h1 className="m-2 text-xs md:text-xl">GitHub</h1>
             </div>
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
-                autoPlay
-                loop
                 className="m-2 rounded-2xl"
-                src="https://ayushmanbh.netlify.app/static/media/netlify.c779369f.svg"
-                height="40"
-                width="40"
+                src="https://i.pinimg.com/originals/24/42/f8/2442f8e6dbd772f0cf1dad8d803399bc.png"
+                height="80"
+                width="80"
               ></img>
-              <h1 className="m-2 text-xs md:text-xl">Netlify</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2 rounded-lg"
-                src={vscode}
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">VS Code</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                loop
-                autoPlay
-                className="m-2 rounded-2xl"
-                src="https://miro.medium.com/v2/resize:fit:679/0*3UD56f1LXF3Q8IrO.gif"
-                height="45"
-                width="45"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">C++</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                loop
-                autoPlay
-                className="m-2 rounded-2xl"
-                src="https://www.newus.in/static/media/Core-python-at-newus-Dharmsala.0fc3b7c72cdea81baba4.gif"
-                height="40"
-                width="40"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">Python</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <video
-                autoPlay
-                loop
-                className="m-2 rounded-2xl"
-                src="https://cdnl.iconscout.com/lottie/premium/thumb/atom-3647730-3053406.mp4"
-                height="45"
-                width="45"
-              ></video>
-              <h1 className="m-2 text-xs md:text-xl">Atom</h1>
+              <h1 className="m-2 text-xs md:text-xl">VSCode</h1>
             </div>
           </div>
         </div>

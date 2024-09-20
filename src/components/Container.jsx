@@ -6,7 +6,7 @@ const Container = () => {
   return (
     <div className="h-screen cont">
       <NavBar />
-      <Intro />
+      <Intro/>
     </div>
   );
 };

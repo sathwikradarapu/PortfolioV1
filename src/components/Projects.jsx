@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center projectsTitle">
         <h1 className="p-2 m-3 mt-20 text-5xl font-bold">Projects</h1>
         <h1 className="m-3 mb-6 text-4xl text-center">
-          These are some projects I worked on from past one year
+        Here are some projects I have worked on over the past year.
         </h1>
       </div>
       <div className="flex flex-col projectsList">

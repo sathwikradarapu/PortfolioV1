@@ -1,133 +1,91 @@
 import React from "react";
 import pfBg from "../imgs/pfBg.jpg";
-import restaurantProPic from "../imgs/restaurant.png";
 import "./WebApps.css";
-import speechtotxt from "../imgs/speechtotxt.png";
-import todolist from "../imgs/todolist.png";
-import bubbles from "../imgs/bubbles.png";
-import videoChat from "../imgs/videoChat.png";
+import IPLVICTORY from "../imgs/iplvictory.png";
+import STROKERISK from "../imgs/strokerisk.jpg"
+import TODOLIST from "../imgs/Todolist.jpeg"
+import VRPRODUCTS from "../imgs/VR Products.jpg"
+import CALCULATOR from "../imgs/calculator.jpg"
+import WIKIPEDIA from "../imgs/wikipedia.jpg"
+import FOODMUNCH from "../imgs/foodmunch.jpg"
+import FLYBUY from "../imgs/flybuy.jpg"
+
 const WebApps = () => {
   return (
     <div className="flex flex-wrap items-center justify-center w-4/5 text-white">
       {/* card1 */}
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl cardHeight">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={restaurantProPic}></img>
+          <img className="p-2 rounded-2xl" src={IPLVICTORY}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            React JS
+            Python
           </div>
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
+            Jupyter Notebook
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
+            Streamlit
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Javascript
+            Pandas
           </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Redux
-          </div>
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Restaurant Web App</h1>
+          <h1>IPL Victory Probability Estimator</h1>
         </div>
         <div className="p-2 ">
           <p>
-            Developed a dynamic restaurant website utilizing React.js for
-            seamless front-end UI. Implemented user-friendly features enabling
-            online ordering and table reservations. Enhanced functionality by
-            integrating an orders section for streamlined management and
-            tracking
+          This project aims to develop a predictive model to forecast IPL match outcomes based on historical data using
+          Python. The analysis will involve data manipulation with pandas, model saving with pickle, and an interactive
+          web app built with Streamlit for user input and predictions.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/RestaurantWebAppV1">
+          <a href="https://github.com/sathwikradarapu/IPL-Victory-Probability-Estimator.git">
             {" "}
             <button>Code</button>
-          </a>
-          <a href="https://superb-lebkuchen-ef1ddd.netlify.app/">
-            <button onClick="">Live</button>
           </a>
         </div>
       </div>
       {/* card1 end */}
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={speechtotxt}></img>
+          <img className="p-2 rounded-2xl" src={STROKERISK}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            React JS
+            Python
           </div>
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
+            Jupyter Notebook
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Tailwind CSS
+            Streamlit
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Javascript
+            Pandas
           </div>
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Speech To Text</h1>
+          <h1>ML-Based Stroke Risk Prediction</h1>
         </div>
         <div className="p-2 ">
           <p>
-            Engineered a React web application facilitating speech-to-text
-            conversion, employing React.js for robust functionality. Leveraged
-            Tailwind CSS for polished UI design, enhancing user experience and
-            accessibility.
+         It involves data analysis with Python libraries (numpy, pandas), and logistic regression to predict heart
+          disease presence, enhancing patient outcomes and healthcare efficiency.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/SpeechToText">
+          <a href="https://github.com/sathwikradarapu/ML-Based-Stroke-Risk-Prediction.git">
             <button>Code</button>
-          </a>
-          <a href="https://saiprakash-voldemort.github.io/SpeechToText/">
-            <button>Live</button>
           </a>
         </div>
       </div>
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={todolist}></img>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            React JS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Tailwind CSS
-          </div>{" "}
-        </div>
-        <div className="p-2 text-2xl font-semibold ">
-          <h1>Checklist</h1>
-        </div>
-        <div className="p-2 ">
-          <p>
-            Designed and developed a dynamic To-Do List web application using
-            React.js, enabling users to efficiently manage tasks and priorities.
-            Utilized state management libraries and modular components to ensure
-            scalability and maintainability of the application
-          </p>
-        </div>
-        <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/ToDoListV1">
-            {" "}
-            <button>Code</button>
-          </a>
-          <a href="https://saiprakash-voldemort.github.io/ToDoListV1/">
-            <button onClick="">Live</button>
-          </a>
-        </div>
-      </div>
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-        <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={bubbles}></img>
+          <img className="p-2 rounded-2xl" src={TODOLIST}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
@@ -137,37 +95,37 @@ const WebApps = () => {
             CSS
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Bootstrap
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
             Javascript
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Bubble Shooter</h1>
+          <h1>TodoList App</h1>
         </div>
         <div className="p-2 ">
           <p>
-            Created an engaging Bubble Shooter game featuring stunning UI
-            design. Players aim to hit the correct bubble to earn points,
-            enhancing both entertainment and user experience.
+          This application uses HTML, CSS, Bootstrap, and JavaScript to manage tasks. Users can input tasks, which are
+          added to a list with checkboxes for marking completion and delete icons for removal. A save button stores the
+          tasks in local storage, ensuring they persist across page refreshes.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/Bubble-Game">
+          <a href="https://github.com/sathwikradarapu/TodoList.git">
             {" "}
             <button>Code</button>
           </a>
-          <a href=" https://saiprakash-voldemort.github.io/Bubble-Game/">
+          <a href="https://sathwiktodo.ccbp.tech/">
             <button onClick="">Live</button>
           </a>
         </div>
       </div>
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={videoChat}></img>
+          <img className="p-2 rounded-2xl" src={VRPRODUCTS}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            React JS
-          </div>
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
             HTML
           </div>{" "}
@@ -175,121 +133,175 @@ const WebApps = () => {
             CSS
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Javascript
+            Bootstrap
           </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Node JS
-          </div>
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Socket.io
-          </div>
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Web-RTC
-          </div>
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Express
-          </div>
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Video Chat App</h1>
+          <h1>VR Products Website</h1>
         </div>
         <div className="p-2 ">
           <p>
-            Crafted a cutting-edge video chat application leveraging React.js
-            for seamless UI integration and Socket.IO for establishing real-time
-            connections between users. Employed Node.js for backend
-            functionality, enhancing scalability and performance. Integrated
+          This website, designed with HTML, CSS, and Bootstrap, provides comprehensive details on virtual reality
+          products. It features a navigation bar with sections for Home, Features, Kit, Kit Description, Price, and Contact,
+          allowing easy access to various parts of the site.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/VideoChatAppTest">
+          <a href="https://github.com/sathwikradarapu/VR-Products-Website.git">
             {" "}
             <button>Code</button>
           </a>
-          <a href="https://videochatappsai.netlify.app/">
+          <a href="https://vrsathwik.ccbp.tech/">
             <button onClick="">Live</button>
           </a>
         </div>
       </div>
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
-          <img
-            className="p-2 rounded-2xl"
-            src="https://m.media-amazon.com/images/I/71y50-KHLoL.png"
-          ></img>
+          <img className="p-2 rounded-2xl" src={WIKIPEDIA}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Android
-          </div>
+            HTML
+          </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Java
+            CSS
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Bootstrap
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            JavaScript
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>JNTUH R22-GPA-Calculator</h1>
+          <h1>Wikipedia Search App</h1>
         </div>
         <div className="p-2 ">
           <p>
-            Developed an Android application for calculating CGPA specifically
-            tailored for R22 JNTUH students. Provided support for students
-            across eleven different branches to calculate their CGPA easily.
+          It takes user input and uses JavaScript HTTP methods like GET, PUT, POST, and DELETE to send requests to the Wikipedia database. The results are retrieved as links, which are then displayed on the website. When a user clicks on a link, they are redirected directly to the main Wikipedia site.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/SaiPrakash-voldemort/JNTUHR22-GPA-Calculator">
+          <a href="https://github.com/sathwikradarapu/Wikipedia-Search-App.git">
             {" "}
             <button>Code</button>
           </a>
-          <a href="https://www.amazon.com/gp/product/B0CSJZ5YTG">
+          <a href="https://sathwiksearch.ccbp.tech/">
             <button onClick="">Live</button>
           </a>
         </div>
       </div>
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl" src={CALCULATOR}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            HTML
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            CSS
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Bootstrap
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            JavaScript
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>Calculator</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+          A simple calculator is designed using HTML, CSS, and Bootstrap for the layout. JavaScript is used to add functionality to each button, allowing operations like addition, subtraction, multiplication, and more.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/Calculator.git">
+            {" "}
+            <button>Code</button>
+          </a>
+          <a href="https://lgmvipcalc.ccbp.tech/">
+            <button onClick="">Live</button>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl" src={FLYBUY}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            HTML
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            CSS
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Bootstrap
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>Fly Buy</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+          It's a clone of an e-commerce website specializing in electronic gadgets. Users can easily explore various sections of the site through a navigation bar built with Bootstrap, which contains multiple navigation items for seamless browsing.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/Fly-Buy.git">
+            {" "}
+            <button>Code</button>
+          </a>
+          <a href="https://flybuy1s.ccbp.tech/">
+            <button onClick="">Live</button>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl" src={FOODMUNCH}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            HTML
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            CSS
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Bootstrap
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>Food Munch</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+          This project is a clone of a food ordering website. Users can easily navigate through various sections using a Bootstrap-based navigation bar, which includes items such as 'Menu,' 'Delivery & Payment,' 'Why Choose Us,' and more.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/Food-Munch.git">
+            {" "}
+            <button>Code</button>
+          </a>
+          <a href="https://sathwikfood.ccbp.tech/">
+            <button onClick="">Live</button>
+          </a>
+        </div>
+      </div>
+
+
+
+
+
+
     </div>
   );
 };
 
 export default WebApps;
-<div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-  <div className="imgDiv h-2/4 ">
-    <img className="p-2 rounded-2xl" src={restaurantProPic}></img>
-  </div>
-  <div className="flex flex-wrap items-center justify-center gap-2 p-2 ">
-    <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-      React JS
-    </div>
-    <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-      HTML
-    </div>{" "}
-    <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-      CSS
-    </div>{" "}
-    <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-      Javascript
-    </div>{" "}
-    <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-      Redux
-    </div>
-  </div>
-  <div className="p-2 text-2xl font-semibold ">
-    <h1>Restaurant Web App</h1>
-  </div>
-  <div className="p-2 ">
-    <p>
-      Developed a dynamic restaurant website utilizing React.js for seamless
-      front-end UI. Implemented user-friendly features enabling online ordering
-      and table reservations. Enhanced functionality by integrating an orders
-      section for streamlined management and tracking
-    </p>
-  </div>
-  <div className="flex items-center justify-center buttonsDiv">
-    <a href="https://github.com/SaiPrakash-voldemort/RestaurantWebAppV1">
-      {" "}
-      <button>Code</button>
-    </a>
-    <a href="https://superb-lebkuchen-ef1ddd.netlify.app/">
-      <button onClick="">Live</button>
-    </a>
-  </div>
-</div>;

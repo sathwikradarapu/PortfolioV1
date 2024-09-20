@@ -3,10 +3,10 @@ import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
   return (
-    <div className="text-white intro">
+    <div className="text-white intro" id="Home">
       <h1 className="m-2 text-3xl font-bold md:text-6xl">Hi </h1>
       <h1 className="m-2 text-3xl font-bold md:text-6xl ">
-        I'm Sai Prakash Sunkari{" "}
+        I'm Sathwik Radarapu{" "}
       </h1>
       <div className="role">
         <ul className="rolesList">
@@ -17,7 +17,7 @@ const Intro = () => {
                   // Same substring at the start will only be typed out once, initially
                   "Web Developer",
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  "Android Developer",
+                  "Software Developer",
                   1000,
                 ]}
                 wrapper="span"
@@ -31,8 +31,7 @@ const Intro = () => {
       </div>
       <p className="w-1/2 m-2 text-xs md:text-xl ">
         {" "}
-        Transforming visions into interactive realities through pixel-perfect
-        designs and intuitive user experiences
+        Enthusiastic about advancing software development through innovation. Actively seeking dynamic opportunities in software development.
       </p>
       <a
         href="https://drive.google.com/file/d/19p3SQRfMUMX0b2mIL-QKjrBgZMXwGKFu/view?usp=sharing"

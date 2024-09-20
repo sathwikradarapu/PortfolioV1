@@ -51,26 +51,18 @@
   top: 0;
 }
 
-.footerIcons li:nth-child(1) a:before {
+.footerIcons li:nth-child(2) a:before {
   background: #3b5999;
 }
 
-.footerIcons li:nth-child(2) a:before {
-  background: #55acee;
+.footerIcons li:nth-child(3) a:before {
+  background: black;
 }
 
-.footerIcons li:nth-child(3) a:before {
-  background: #0077b5;
+.footerIcons li:nth-child(1) a:before {
+  background: red;
 }
 
 .footerIcons li:nth-child(4) a:before {
-  background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background: gold;
 }
