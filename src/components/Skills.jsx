@@ -124,7 +124,7 @@ const Skills = () => {
             <div className="flex items-center m-2 border border-white rounded-lg w-fit">
               <img
                 className="m-2 rounded-xl"
-                src="https://pngimg.com/uploads/mysql/mysql_PNG29.png"
+                src="https://th.bing.com/th/id/R.bab2c760c60f17191cb3a002e08a3dbf?rik=yiOb%2bDZuARgRSw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmysql%2fmysql_PNG23.png&ehk=ughz54ymXwgnjlfws2xz7%2fznA2I4qAWExdUJe%2bcD7K0%3d&risl=&pid=ImgRaw&r=0"
                 height="80"
                 width="80"
               ></img>
