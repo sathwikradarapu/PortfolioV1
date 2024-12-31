@@ -110,7 +110,7 @@ const WebApps = () => {
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>TodoList App</h1>
+          <h1>Task Master</h1>
         </div>
         <div className="p-2 ">
           <p>
@@ -147,7 +147,7 @@ const WebApps = () => {
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>VR Products Website</h1>
+          <h1>VRSphere</h1>
         </div>
         <div className="p-2 ">
           <p>
