@@ -1,14 +1,14 @@
 import React from "react";
-import pfBg from "../imgs/pfBg.jpg";
 import "./WebApps.css";
 import IPLVICTORY from "../imgs/iplvictory.png";
-import STROKERISK from "../imgs/strokerisk.jpg"
-import TODOLIST from "../imgs/Todolist.jpeg"
-import VRPRODUCTS from "../imgs/VR Products.jpg"
-import CALCULATOR from "../imgs/calculator.jpg"
-import WIKIPEDIA from "../imgs/wikipedia.jpg"
-import FOODMUNCH from "../imgs/foodmunch.jpg"
-import FLYBUY from "../imgs/flybuy.jpg"
+import STROKERISK from "../imgs/strokerisk.jpg";
+import TODOLIST from "../imgs/Todolist.jpeg";
+import VRPRODUCTS from "../imgs/VR Products.jpg";
+import LOGO from "../imgs/logo.png";
+import LEETCODE from "../imgs/LeetCode_Logo_1.png";
+import STATIC from "../imgs/static.png";
+import RESPONSIVE from "../imgs/responsive.jpeg";
+import DYNAMIC from "../imgs/dynamic.png";
 
 const WebApps = () => {
   return (
@@ -37,9 +37,11 @@ const WebApps = () => {
         </div>
         <div className="p-2 ">
           <p>
-          This project aims to develop a predictive model to forecast IPL match outcomes based on historical data using
-          Python. The analysis will involve data manipulation with pandas, model saving with pickle, and an interactive
-          web app built with Streamlit for user input and predictions.
+            This project aims to develop a predictive model to forecast IPL
+            match outcomes based on historical data using Python. The analysis
+            will involve data manipulation with pandas, model saving with
+            pickle, and an interactive web app built with Streamlit for user
+            input and predictions.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
@@ -50,36 +52,42 @@ const WebApps = () => {
         </div>
       </div>
       {/* card1 end */}
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl cardHeight">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={STROKERISK}></img>
+          <img className="p-2 rounded-2xl" src={LOGO}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Python
+            React
           </div>
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Jupyter Notebook
+            Redux
           </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Streamlit
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Pandas
-          </div>
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>ML-Based Stroke Risk Prediction</h1>
+          <h1>Trend Rush</h1>
         </div>
         <div className="p-2 ">
           <p>
-         It involves data analysis with Python libraries (numpy, pandas), and logistic regression to predict heart
-          disease presence, enhancing patient outcomes and healthcare efficiency.
+            This project is an e-commerce clone resembling Amazon and Flipkart,
+            built with React for the UI and Redux for state management. It
+            features sections like Men, Women, Kids, Beauty, and a special Bag
+            section where users can add or remove items, with a bill generated
+            dynamically.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/ML-Based-Stroke-Risk-Prediction.git">
-            <button>Code</button>
+          <a href="https://github.com/sathwikradarapu/Shopping-Website-Frontend.git">
+            {" "}
+            <button>Code1</button>
+          </a>
+          <a href="https://github.com/sathwikradarapu/Shopping-Website-Backend.git">
+            {" "}
+            <button>Code2</button>
+          </a>
+          <a href="https://trendrush.netlify.app/">
+            {" "}
+            <button>Live</button>
           </a>
         </div>
       </div>
@@ -98,7 +106,7 @@ const WebApps = () => {
             Bootstrap
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Javascript
+            JavaScript
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
@@ -106,13 +114,15 @@ const WebApps = () => {
         </div>
         <div className="p-2 ">
           <p>
-          This application uses HTML, CSS, Bootstrap, and JavaScript to manage tasks. Users can input tasks, which are
-          added to a list with checkboxes for marking completion and delete icons for removal. A save button stores the
-          tasks in local storage, ensuring they persist across page refreshes.
+            This application uses HTML, CSS, Bootstrap, and JavaScript to manage
+            tasks. Users can input tasks, which are added to a list with
+            checkboxes for marking completion and delete icons for removal. A
+            save button stores the tasks in local storage, ensuring they persist
+            across page refreshes.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/TodoList.git">
+          <a href="https://github.com/sathwikradarapu/Dynamic-Websites/tree/7fb5899cadb32d1296b2cf31b87c3f6977d228ac/ZHLINL2QVV_sathwiktodo">
             {" "}
             <button>Code</button>
           </a>
@@ -141,13 +151,15 @@ const WebApps = () => {
         </div>
         <div className="p-2 ">
           <p>
-          This website, designed with HTML, CSS, and Bootstrap, provides comprehensive details on virtual reality
-          products. It features a navigation bar with sections for Home, Features, Kit, Kit Description, Price, and Contact,
-          allowing easy access to various parts of the site.
+            This website, designed with HTML, CSS, and Bootstrap, provides
+            comprehensive details on virtual reality products. It features a
+            navigation bar with sections for Home, Features, Kit, Kit
+            Description, Price, and Contact, allowing easy access to various
+            parts of the site.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/VR-Products-Website.git">
+          <a href="https://github.com/sathwikradarapu/responsive-websites/tree/8a71e2b30f46da4512fa2e51620905012ad4d4d0/O09X9MKMMA_SathwikVR">
             {" "}
             <button>Code</button>
           </a>
@@ -158,7 +170,98 @@ const WebApps = () => {
       </div>
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={WIKIPEDIA}></img>
+          <img className="p-2 rounded-2xl" src={STROKERISK}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Python
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Jupyter Notebook
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Streamlit
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Pandas
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>ML Based Stroke Risk Prediction</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+            This project develops a predictive model for early heart disease
+            diagnosis using the UCI Heart Disease dataset. It leverages Python
+            libraries (NumPy, Pandas) and logistic regression to improve
+            healthcare outcomes.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/ML-Based-Stroke-Risk-Prediction.git">
+            {" "}
+            <button>Code</button>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl " src={LEETCODE}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Python
+          </div>
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>LeetCode Problems</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+            This GitHub repository showcases all the problems I have
+            successfully solved on LeetCode, demonstrating my proficiency in
+            algorithmic problem-solving and coding skills.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/LeetCode-Problems.git">
+            <button>Code</button>
+          </a>
+        </div>
+      </div>
+
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl " src={STATIC}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            HTML
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            CSS
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>Static Websites</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+            This GitHub repository highlights the static websites I've built
+            using HTML and CSS, showcasing my expertise in basic web design
+            skills.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/static-websites.git">
+            <button>Code</button>
+          </a>
+        </div>
+      </div>
+
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl " src={RESPONSIVE}></img>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
@@ -169,137 +272,60 @@ const WebApps = () => {
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
             Bootstrap
+          </div>{" "}
+        </div>
+        <div className="p-2 text-2xl font-semibold ">
+          <h1>Responsive Websites</h1>
+        </div>
+        <div className="p-2 ">
+          <p>
+            This GitHub repository highlights my expertise in creating
+            responsive websites using HTML, CSS, and Bootstrap. It showcases the
+            successful implementation of responsive design across various
+            projects.
+          </p>
+        </div>
+        <div className="flex items-center justify-center buttonsDiv">
+          <a href="https://github.com/sathwikradarapu/responsive-websites.git">
+            <button>Code</button>
+          </a>
+        </div>
+      </div>
+
+      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
+        <div className="imgDiv h-2/4 ">
+          <img className="p-2 rounded-2xl " src={DYNAMIC}></img>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            HTML
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            CSS
+          </div>{" "}
+          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
+            Boostrap
           </div>{" "}
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
             JavaScript
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Wikipedia Search App</h1>
+          <h1>Dynamic Websites</h1>
         </div>
         <div className="p-2 ">
           <p>
-          It takes user input and uses JavaScript HTTP methods like GET, PUT, POST, and DELETE to send requests to the Wikipedia database. The results are retrieved as links, which are then displayed on the website. When a user clicks on a link, they are redirected directly to the main Wikipedia site.
+            This GitHub repository features dynamic websites I built using HTML,
+            CSS, Bootstrap, and JavaScript, showcasing my expertise in web
+            design and adding interactive functionality.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/Wikipedia-Search-App.git">
-            {" "}
+          <a href="https://github.com/sathwikradarapu/Dynamic-Websites.git">
             <button>Code</button>
-          </a>
-          <a href="https://sathwiksearch.ccbp.tech/">
-            <button onClick="">Live</button>
           </a>
         </div>
       </div>
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-        <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={CALCULATOR}></img>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Bootstrap
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            JavaScript
-          </div>{" "}
-        </div>
-        <div className="p-2 text-2xl font-semibold ">
-          <h1>Calculator</h1>
-        </div>
-        <div className="p-2 ">
-          <p>
-          A simple calculator is designed using HTML, CSS, and Bootstrap for the layout. JavaScript is used to add functionality to each button, allowing operations like addition, subtraction, multiplication, and more.
-          </p>
-        </div>
-        <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/Calculator.git">
-            {" "}
-            <button>Code</button>
-          </a>
-          <a href="https://lgmvipcalc.ccbp.tech/">
-            <button onClick="">Live</button>
-          </a>
-        </div>
-      </div>
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-        <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={FLYBUY}></img>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Bootstrap
-          </div>{" "}
-        </div>
-        <div className="p-2 text-2xl font-semibold ">
-          <h1>Fly Buy</h1>
-        </div>
-        <div className="p-2 ">
-          <p>
-          It's a clone of an e-commerce website specializing in electronic gadgets. Users can easily explore various sections of the site through a navigation bar built with Bootstrap, which contains multiple navigation items for seamless browsing.
-          </p>
-        </div>
-        <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/Fly-Buy.git">
-            {" "}
-            <button>Code</button>
-          </a>
-          <a href="https://flybuy1s.ccbp.tech/">
-            <button onClick="">Live</button>
-          </a>
-        </div>
-      </div>
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-        <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={FOODMUNCH}></img>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Bootstrap
-          </div>{" "}
-        </div>
-        <div className="p-2 text-2xl font-semibold ">
-          <h1>Food Munch</h1>
-        </div>
-        <div className="p-2 ">
-          <p>
-          This project is a clone of a food ordering website. Users can easily navigate through various sections using a Bootstrap-based navigation bar, which includes items such as 'Menu,' 'Delivery & Payment,' 'Why Choose Us,' and more.
-          </p>
-        </div>
-        <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/Food-Munch.git">
-            {" "}
-            <button>Code</button>
-          </a>
-          <a href="https://sathwikfood.ccbp.tech/">
-            <button onClick="">Live</button>
-          </a>
-        </div>
-      </div>
-
-
-
-
-
-
     </div>
   );
 };

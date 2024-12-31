@@ -9,8 +9,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import TestEx from "./components/TestEx";
 import Education from "./components/Education";
-import POR from "./components/POR"
-import Intro from "./components/Intro"
+import POR from "./components/POR";
+import Intro from "./components/Intro";
+import Certifications from "./components/Certifications";
 const App = () => {
   return (
     <div className="h-full bg-stone-800 mainDiv">
@@ -18,7 +19,8 @@ const App = () => {
       <Skills />
       <Projects />
       <Education />
-      <POR/>
+      <POR />
+      <Certifications></Certifications>
       <Contact />
       <TestEx />
     </div>

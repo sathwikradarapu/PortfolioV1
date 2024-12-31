@@ -19,7 +19,10 @@ const NavBar = () => {
           <a href="#Education">Education</a>
         </li>
         <li className="p-2 m-3 font-semibold">
-          <a href="#POR">Positions of Responsibility</a>
+          <a href="#POR">Experience</a>
+        </li>
+        <li className="p-2 m-3 font-semibold">
+          <a href="#Certifications">Certifications</a>
         </li>
         <li className="p-2 m-3 font-semibold">
           <a href="#Contact">Contact</a>
