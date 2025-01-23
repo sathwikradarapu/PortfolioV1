@@ -87,6 +87,15 @@ const Skills = () => {
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Redux</h1>
             </div>
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-xl"
+                src="https://www.djangoproject.com/m/img/logos/django-logo-positive.png"
+                height="150"
+                width="150"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">Django</h1>
+            </div>
           </div>
         </div>
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white othersCard h-fit rounded-xl">

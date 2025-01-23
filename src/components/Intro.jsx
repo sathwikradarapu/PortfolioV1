@@ -15,7 +15,7 @@ const Intro = () => {
             <span className="typing">
               <TypeAnimation
                 sequence={[
-                  "💻⌨️ Frontend Developer",
+                  "💻⌨️ Full Stack Python Developer",
                   1000,
                   "🤖🌐 Tech Geek",
                   1000,

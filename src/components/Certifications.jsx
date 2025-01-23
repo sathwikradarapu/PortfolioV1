@@ -18,7 +18,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -41,7 +41,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -64,7 +64,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -87,7 +87,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -110,7 +110,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -133,7 +133,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -156,7 +156,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -179,7 +179,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -202,7 +202,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
@@ -225,7 +225,7 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://yt3.googleusercontent.com/_rFjeAs1GjM3lSMpoQ7PYBZxkN6aVsURQoI20eTD_pJu_lECteWdK7Uc_Lsa2GC92aXNHKJs=s900-c-k-c0x00ffffff-no-rj"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s"
                 />
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>

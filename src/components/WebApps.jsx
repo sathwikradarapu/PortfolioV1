@@ -97,77 +97,28 @@ const WebApps = () => {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
           <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Bootstrap
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            JavaScript
+            Django
           </div>{" "}
         </div>
         <div className="p-2 text-2xl font-semibold ">
-          <h1>Task Master</h1>
+          <h1>Collaborative Task Manager</h1>
         </div>
         <div className="p-2 ">
           <p>
-            This application uses HTML, CSS, Bootstrap, and JavaScript to manage
-            tasks. Users can input tasks, which are added to a list with
-            checkboxes for marking completion and delete icons for removal. A
-            save button stores the tasks in local storage, ensuring they persist
-            across page refreshes.
+            Built a Task List app using Django MVT with CRUD operations and
+            database management.Designed UI with Jinja2 templates, Django forms,
+            and CSRF security. Configured Admin Panel with superuser for
+            efficient database control.
           </p>
         </div>
         <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/Dynamic-Websites/tree/7fb5899cadb32d1296b2cf31b87c3f6977d228ac/ZHLINL2QVV_sathwiktodo">
+          <a href="https://github.com/sathwikradarapu/Django-TodoList.git">
             {" "}
             <button>Code</button>
           </a>
-          <a href="https://sathwiktodo.ccbp.tech/">
-            <button onClick="">Live</button>
-          </a>
         </div>
       </div>
-      <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
-        <div className="imgDiv h-2/4 ">
-          <img className="p-2 rounded-2xl" src={VRPRODUCTS}></img>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2 p-2 font-semibold">
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            HTML
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            CSS
-          </div>{" "}
-          <div className="p-2 text-xs text-white border border-white rounded-2xl skillsUsed">
-            Bootstrap
-          </div>{" "}
-        </div>
-        <div className="p-2 text-2xl font-semibold ">
-          <h1>VRSphere</h1>
-        </div>
-        <div className="p-2 ">
-          <p>
-            This website, designed with HTML, CSS, and Bootstrap, provides
-            comprehensive details on virtual reality products. It features a
-            navigation bar with sections for Home, Features, Kit, Kit
-            Description, Price, and Contact, allowing easy access to various
-            parts of the site.
-          </p>
-        </div>
-        <div className="flex items-center justify-center buttonsDiv">
-          <a href="https://github.com/sathwikradarapu/responsive-websites/tree/8a71e2b30f46da4512fa2e51620905012ad4d4d0/O09X9MKMMA_SathwikVR">
-            {" "}
-            <button>Code</button>
-          </a>
-          <a href="https://vrsathwik.ccbp.tech/">
-            <button onClick="">Live</button>
-          </a>
-        </div>
-      </div>
+
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
           <img className="p-2 rounded-2xl" src={STROKERISK}></img>
