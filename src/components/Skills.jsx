@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="flex flex-col text-white" id="Skills">
       <div className="flex flex-col items-center">
-        <h1 className="p-2 m-3 mt-16 text-5xl font-bold">Skills</h1>
+        <h1 className="p-2 m-3 mt-16 text-5xl font-bold">Technical Skills</h1>
         <h4 className="p-2 text-2xl text-center">
           I have been developing and honing these skills over the past year.
         </h4>
