@@ -51,7 +51,7 @@ const POR = () => {
                     Teaching Assistant
                     <span className="taportal">
                       <a href="https://portal.ccbp.in/teaching-assistant-profile?uid=sathwik">
-                        TA Portal
+                        Dashboard
                       </a>
                     </span>
                   </h1>

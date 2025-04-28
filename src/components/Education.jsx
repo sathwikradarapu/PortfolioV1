@@ -59,7 +59,7 @@ const Education = () => {
                 <div>
                   <h1 className="text-left ">Nxtwave</h1>
                   <h1 className="text-left">Full Stack Development (MERN)</h1>
-                  <h1 className="text-left">Sep 2023-Sep 2024</h1>
+                  <h1 className="text-left">Sep 2022-Sep 2023</h1>
                 </div>
               </div>
               <div className="text-left">

@@ -1,5 +1,4 @@
 import React from "react";
-import gitHubIcon from "../imgs/gTwo.png";
 import "./NavBar.css";
 
 const NavBar = () => {

@@ -16,9 +16,9 @@ const Intro = () => {
               <TypeAnimation
                 sequence={[
                   "💻⌨️ Full Stack Python Developer",
-                  1000,
-                  "🤖🌐 Tech Geek",
-                  1000,
+                  1000, // wait 1 second
+                  "", // delete the text
+                  500, // wait 0.5 second before typing again
                 ]}
                 wrapper="span"
                 speed={40}

@@ -1,9 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import { Link } from "react-router-dom";
-import AndroidApps from "./AndroidApps";
-import Others from "./Others";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WebApps from "./WebApps";
 const Projects = () => {
   return (
@@ -11,7 +7,7 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center projectsTitle">
         <h1 className="p-2 m-3 mt-20 text-5xl font-bold">Projects</h1>
         <h1 className="m-3 mb-6 text-4xl text-center">
-        Here are some projects I have worked on over the past year.
+          Here are some projects I have worked on over the past year.
         </h1>
       </div>
       <div className="flex flex-col projectsList">
