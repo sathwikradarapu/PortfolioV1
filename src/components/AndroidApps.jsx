@@ -4,7 +4,6 @@ import "./AndroidApps.css";
 const AndroidApps = () => {
   return (
     <div className="flex flex-wrap items-center justify-center w-4/5 text-white">
-      {/* card1 */}
       <div className="flex flex-col p-2 m-4 text-white border border-white card rounded-2xl">
         <div className="imgDiv h-2/4 ">
           <img className="p-2 rounded-2xl" src={pfBg}></img>
