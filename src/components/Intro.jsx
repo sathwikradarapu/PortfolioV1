@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="text-white intro" id="Home">
       <h1 className="m-2 text-3xl font-bold md:text-6xl">👋🙋‍♂️ Hi</h1>
       <h1 className="m-2 text-3xl font-bold md:text-6xl">
-        I’m Sathwik Radarapu...
+        I’m Sathwik Radarapu
       </h1>
       <div className="role">
         <ul className="rolesList">

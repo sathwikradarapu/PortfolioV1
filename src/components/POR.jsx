@@ -14,28 +14,22 @@ const POR = () => {
         <div className="timeline-items">
           <div className="timeline-item">
             <div className="timeline-dot"></div>
-            <div className="timeline-date">2023</div>
+            <div className="timeline-date">2025</div>
             <div className="timeline-content">
-              <div className="flex items-center gap-3">
+              <div className="flex justify-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://media.licdn.com/dms/image/v2/C4E0BAQHfk_O8amPovQ/company-logo_200_200/company-logo_200_200/0/1642532597684/oasis_infobyte_logo?e=2147483647&v=beta&t=I7DRu4nea9ivLzi4napdkXSwVC8_o4Or0KsVnWMqsWA"
+                  src="https://logosandtypes.com/wp-content/uploads/2022/03/Cognizant.png"
                 />
                 <div>
-                  <h1 className="text-left ">Oasis Infobyte</h1>
-                  <h1 className="text-left ">
-                    Web Development Intern
-                    <span className="taportal">
-                      <a href="https://drive.google.com/file/d/1b0p2MA3WzIFC_FyLVLB1OSjgvi4algKD/view?usp=sharing">
-                        Offer Letter
-                      </a>
-                    </span>
-                  </h1>
-                  <h1 className="text-left">Jun 2023-Jul 2023</h1>
+                  <h1 className="text-left ">Cognizant</h1>
+                  <h1 className="text-left">Programmer Analyst Trainee</h1>
+                  <h1 className="text-left">May 2025 - Present</h1>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2023</div>
@@ -71,55 +65,6 @@ const POR = () => {
             <div className="timeline-dot"></div>
             <div className="timeline-date">2023</div>
             <div className="timeline-content">
-              <div className="flex items-center gap-3">
-                <img
-                  className="bg-white rounded-2xl collegeLogo"
-                  src="https://media.licdn.com/dms/image/v2/C4E03AQFZu_vpC32Xyw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632934847310?e=2147483647&v=beta&t=eQns_khBoTurXqj9w9pHbAgHxtMIwtHQOevTN9MxC3c"
-                />
-                <div>
-                  <h1 className="text-left ">LetsGrowMore</h1>
-                  <h1 className="text-left ">
-                    Web Development Intern
-                    <span className="taportal">
-                      <a href="https://drive.google.com/file/d/1_8DILRkqgIuivRiLeLQdlwW-NYDpNIln/view?usp=sharing">
-                        Offer Letter
-                      </a>
-                    </span>
-                  </h1>
-                  <h1 className="text-left">Apr 2023-May 2023</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2023</div>
-            <div className="timeline-content">
-              <div className="flex items-center gap-3">
-                <img
-                  className="bg-white rounded-2xl collegeLogo"
-                  src="https://media.licdn.com/dms/image/v2/C4D0BAQFVBPbc6-yxoA/company-logo_200_200/company-logo_200_200/0/1677167041761?e=2147483647&v=beta&t=xBxH4zLgiEO1RCPbZemcdWDMIZFXROtM2c11jjdQHus"
-                />
-                <div>
-                  <h1 className="text-left ">Code Alpha</h1>
-                  <h1 className="text-left ">
-                    Web Development Intern
-                    <span className="taportal">
-                      <a href="https://drive.google.com/file/d/1kvFP9BHm59aqvCDGRzmT4wFaZJ4GkEYQ/view?usp=sharing">
-                        Offer Letter
-                      </a>
-                    </span>
-                  </h1>
-                  <h1 className="text-left">Apr 2023-May 2023</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2023</div>
-            <div className="timeline-content">
               <div className="flex justify-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
@@ -141,30 +86,6 @@ const POR = () => {
                   awareness among juniors, and aided 15 students in project
                   presentations.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2023</div>
-            <div className="timeline-content">
-              <div className="flex items-center gap-3">
-                <img
-                  className="bg-white rounded-2xl collegeLogo"
-                  src="https://media.licdn.com/dms/image/v2/D4D0BAQGk7LpwLG6nkQ/company-logo_200_200/company-logo_200_200/0/1719257552819/bharat_intern_logo?e=2147483647&v=beta&t=Bv7Jz-Rw1JuWxeFQ6pB8eXJk57hC8Z9y8MZ60f7KjiE"
-                />
-                <div>
-                  <h1 className="text-left ">Bharath Intern</h1>
-                  <h1 className="text-left ">
-                    Web Development Intern
-                    <span className="taportal">
-                      <a href="https://drive.google.com/file/d/1tXzHlgst-Nk-a-xNc4fm7QpsVPuuu5sF/view?usp=sharing">
-                        Offer Letter
-                      </a>
-                    </span>
-                  </h1>
-                  <h1 className="text-left">Mar 2023-Apr 2023</h1>
-                </div>
               </div>
             </div>
           </div>

@@ -13,6 +13,78 @@ const Certifications = () => {
         <div className="timeline-items">
           <div className="timeline-item">
             <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <div className="flex items-center gap-3">
+                <img
+                  className="bg-white rounded-2xl collegeLogo"
+                  src="https://yt3.googleusercontent.com/Y_G09q2it3FZMrbbxwLjgMjSanR1mZAsXnEE6g6ZaBXlq2dLIRsKqSrGTCMuiyvvVavu-xFvPEc=s900-c-k-c0x00ffffff-no-rj"
+                />
+                <div>
+                  <h1 className="text-left ">Udemy</h1>
+                  <h1 className="text-left ">
+                    Agile Fundementals: Including Scrum & Kanban
+                    <span className="taportal">
+                      <a href="https://drive.google.com/file/d/1bC3OIkLBn5cDBazYgpHq0RI4qGlMORVO/view?usp=sharing">
+                        Certificate
+                      </a>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <div className="flex items-center gap-3">
+                <img
+                  className="bg-white rounded-2xl collegeLogo"
+                  src="https://yt3.googleusercontent.com/Y_G09q2it3FZMrbbxwLjgMjSanR1mZAsXnEE6g6ZaBXlq2dLIRsKqSrGTCMuiyvvVavu-xFvPEc=s900-c-k-c0x00ffffff-no-rj"
+                />
+                <div>
+                  <h1 className="text-left ">Udemy</h1>
+                  <h1 className="text-left ">
+                    Java Database Connection: JDBC and MYSQL
+                    <span className="taportal">
+                      <a href="https://drive.google.com/file/d/1cSXgjvi2B6-uxNXmSXiqRzDPt9vUavPz/view?usp=sharing">
+                        Certificate
+                      </a>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <div className="flex items-center gap-3">
+                <img
+                  className="bg-white rounded-2xl collegeLogo"
+                  src="https://yt3.googleusercontent.com/Y_G09q2it3FZMrbbxwLjgMjSanR1mZAsXnEE6g6ZaBXlq2dLIRsKqSrGTCMuiyvvVavu-xFvPEc=s900-c-k-c0x00ffffff-no-rj"
+                />
+                <div>
+                  <h1 className="text-left ">Udemy</h1>
+                  <h1 className="text-left ">
+                    Learn Manual Software Testing + Agile with Jira Tool
+                    <span className="taportal">
+                      <a href="https://drive.google.com/file/d/12UM7hqN9YnHIHXX-TMGn1gXEF9CN7RdG/view?usp=sharing">
+                        Certificate
+                      </a>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
             <div className="timeline-date">2023</div>
             <div className="timeline-content">
               <div className="flex items-center gap-3">

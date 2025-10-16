@@ -25,15 +25,6 @@ const Skills = () => {
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Python</h1>
             </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit responsiveDiv">
-              <img
-                className="m-2 rounded-xl"
-                src="https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png"
-                height="80"
-                width="80"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">Java</h1>
-            </div>
           </div>
         </div>
 
