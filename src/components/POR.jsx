@@ -24,7 +24,7 @@ const POR = () => {
                 <div>
                   <h1 className="text-left ">Cognizant</h1>
                   <h1 className="text-left">Programmer Analyst Trainee</h1>
-                  <h1 className="text-left">May 2025 - Present</h1>
+                  <h1 className="text-left">May 2025 - Dec 2025</h1>
                 </div>
               </div>
             </div>
