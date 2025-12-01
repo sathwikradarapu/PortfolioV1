@@ -18,6 +18,30 @@ const Certifications = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
+                  src="https://logosandtypes.com/wp-content/uploads/2022/03/Cognizant.png"
+                />
+                <div>
+                  <h1 className="text-left ">Cognizant</h1>
+                  <h1 className="text-left ">
+                    Vibe Code Hackathon - Vibe Coded using Gemini Code Assist
+                    <span className="taportal">
+                      <a href="https://www.credly.com/badges/88a79ecd-dffc-403a-8413-258239dae53a/public_url">
+                        Certificate
+                      </a>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <div className="flex items-center gap-3">
+                <img
+                  className="bg-white rounded-2xl collegeLogo"
                   src="https://yt3.googleusercontent.com/Y_G09q2it3FZMrbbxwLjgMjSanR1mZAsXnEE6g6ZaBXlq2dLIRsKqSrGTCMuiyvvVavu-xFvPEc=s900-c-k-c0x00ffffff-no-rj"
                 />
                 <div>
