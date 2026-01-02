@@ -145,15 +145,6 @@ const Skills = () => {
               ></img>
               <h1 className="m-2 text-xs md:text-xl">React.js</h1>
             </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2 rounded-xl"
-                src="https://img.icons8.com/ios_filled/512/FFFFFF/redux.png"
-                height="80"
-                width="80"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">Redux Toolkit</h1>
-            </div>
           </div>
         </div>
 
@@ -170,15 +161,6 @@ const Skills = () => {
                 width="80"
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Django</h1>
-            </div>
-            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
-              <img
-                className="m-2 rounded-xl"
-                src="https://cdn.brandfetch.io/django-rest-framework.org/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed"
-                height="100"
-                width="150"
-              ></img>
-              <h1 className="m-2 text-xs md:text-xl">Django REST Framework</h1>
             </div>
           </div>
         </div>
