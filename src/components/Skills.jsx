@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="flex flex-wrap items-center justify-center cardsDiv responsiveDiv">
         <div className="flex flex-col w-5/12 p-3 m-5 border border-white androidCard h-fit rounded-xl ">
           <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">Programming Languages</h1>
+            <h1 className="text-3xl font-bold">Programming Language</h1>
           </div>
           <div className="flex flex-wrap items-center justify-center p-3">
             <div className="flex items-center m-2 border border-white rounded-lg w-fit responsiveDiv">
