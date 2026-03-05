@@ -145,6 +145,15 @@ const Skills = () => {
               ></img>
               <h1 className="m-2 text-xs md:text-xl">React.js</h1>
             </div>
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-xl"
+                src="https://tse1.mm.bing.net/th/id/OIP.glH-dtdIeiiwdgNRWzAJZAHaHD?rs=1&pid=ImgDetMain&o=7&rm=3"
+                height="80"
+                width="80"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">Redux Toolkit</h1>
+            </div>
           </div>
         </div>
 
@@ -161,6 +170,17 @@ const Skills = () => {
                 width="80"
               ></img>
               <h1 className="m-2 text-xs md:text-xl">Django</h1>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center justify-center p-3">
+            <div className="flex items-center m-2 border border-white rounded-lg w-fit">
+              <img
+                className="m-2 rounded-xl"
+                src="https://tse2.mm.bing.net/th/id/OIP.N5Iep1wJY1iXgMzpHxzE8wHaDR?rs=1&pid=ImgDetMain&o=7&rm=3"
+                height="120"
+                width="120"
+              ></img>
+              <h1 className="m-2 text-xs md:text-xl">Django REST Framework</h1>
             </div>
           </div>
         </div>

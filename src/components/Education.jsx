@@ -19,7 +19,7 @@ const Education = () => {
               <div className="flex justify-center gap-3">
                 <img
                   className="bg-white rounded-2xl collegeLogo"
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/JNTU_Hyderabad_logo.png/220px-JNTU_Hyderabad_logo.png"
+                  src="https://th.bing.com/th/id/R.3e1c14d7eae9d19dc81b288b9666b789?rik=x6CYhVyMbuKuSA&riu=http%3a%2f%2fjntuhaac.in%2fContent%2fimages%2fjntuhlogo.png&ehk=mKcA7x3SBoNq5P1iQXauXeRFSx6zyv9dDR1qzScyCNA%3d&risl=&pid=ImgRaw&r=0"
                 />
                 <div>
                   <h1 className="text-left ">
